@@ -1,0 +1,45 @@
+{
+  "name": "bootstrap-3-less-gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "Bootstrap 3 boilerplate with LESS compiling and other features with Gulp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyrliu/bootstrap-3-less-gulp-boilerplate.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "less",
+    "gulp"
+  ],
+  "author": "Pyry Liukas <pyry@tidycms.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrliu/bootstrap-3-less-gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pyrliu/bootstrap-3-less-gulp-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "devDependencies": {
+    "connect-modrewrite": "^0.8.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-file-include": "^0.13.7",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-include": "^2.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1",
+    "jquery": "^2.2.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "minimist": "^1.2.0"
+  }
+}
