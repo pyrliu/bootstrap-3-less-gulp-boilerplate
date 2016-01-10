@@ -12,15 +12,19 @@ https://github.com/willianjusten/bootstrap-boilerplate
 First of all, install the dependencies to run this boilerplate.
 
 - [NodeJS](http://nodejs.org/)
-(download and install)
+  (download and install)
 
 - [GulpJS](http://gulpjs.com/)
-(npm install -g gulp)
+  (npm install -g gulp)
 
 
 ```sh
-# clone this repository
-$ git clone git://github.com/pyrliu/bootstrap-3-less-gulp-boilerplate.git new_project
+# download this & unzip this repository
+$ wget https://github.com/pyrliu/bootstrap-3-less-gulp-boilerplate/archive/master.zip
+$ unzip master.zip
+
+# rename the directory to your project and move to new dir
+$ mv bootstrap-3-less-gulp-boilerplate-master new_project
 $ cd new_project
 
 # install dependencies
