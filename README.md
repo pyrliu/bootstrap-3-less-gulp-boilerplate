@@ -33,7 +33,7 @@ $ npm install
 # run gulp
 gulp watch
 
-#open your brower to http://localhost:8080 and start coding
+#open your browser to http://localhost:8080 and start coding
 ```
 
 With the commands above, you have everything to start.
