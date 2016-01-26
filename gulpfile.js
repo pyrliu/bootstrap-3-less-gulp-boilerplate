@@ -30,6 +30,10 @@ gulp.task('less', function(){
 			.pipe(less({
 			    plugins: [autoprefix, cleancss]
 			  }))
+			.on('error', function(error){
+			  console.log(error.toString());
+			  this.emit('end');
+			})
 		  .pipe(gulp.dest(assetsDir + 'css'))
 			.pipe(connect.reload());
 	});
